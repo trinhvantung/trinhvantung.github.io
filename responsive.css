@@ -1,0 +1,35 @@
+/* Mobile nhỏ */
+@media (max-width: 599px) {
+  /* CSS cho điện thoại nhỏ */
+  #envelope {
+    zoom: 1.2;
+    bottom: 40px;
+  }
+}
+
+/* Mobile lớn */
+@media (min-width: 600px) and (max-width: 767px) {
+  /* CSS cho điện thoại lớn */
+  #envelope {
+    zoom: 1.3;
+    bottom: 50px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS cho máy tính bảng */
+  #envelope {
+    zoom: 1.4;
+    bottom: 60px;
+  }
+}
+
+/* Laptop nhỏ */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* CSS cho laptop nhỏ hoặc tablet ngang */
+  #envelope {
+    zoom: 1.2;
+    bottom: 80px;
+  }
+}
